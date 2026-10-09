@@ -1,0 +1,50 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+env/
+.conda/
+
+# Dataset files and local training output
+/datasets/
+/records/
+/saves/
+/runs/
+/logs/
+/wandb/
+/tensorboard/
+
+# Checkpoints and generated binary data
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local credentials; keep a shareable example if one is added
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
