@@ -1,0 +1,11 @@
+# Direct dependencies reported by the author for the SGRNet experiment environment.
+# Python: 3.9.21; PyTorch CUDA runtime: 11.8.
+# Install the CUDA 11.8 torch/torchvision wheels first, as described in README.md.
+# These are direct dependency pins, not a full transitive lockfile.
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.0.2
+Pillow==11.1.0
+PyYAML==6.0.2
+scipy==1.13.1
+tqdm==4.67.1
